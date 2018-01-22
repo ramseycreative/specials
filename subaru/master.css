@@ -3,6 +3,9 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, span {
   padding: 0;
   border: 0;
   background-color: #E3E3E3; }
+strike{
+  color: red;
+}
 
 .specialContainer {
   width: 940px;
@@ -29,7 +32,7 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, span {
 .leftContent {
   background-color: #ffffff;
 text-align:right;
-padding: 0 30px 20px 0; }
+padding: 0 30px 0px 0; }
 
 .rightContent {
   background-color: #ffffff;
@@ -72,7 +75,7 @@ font {
 .lease {
   background-color: #ffffff;
 
-  font-size: 110px;
+  font-size: 60px;
   padding: 0 0 0 0;
   margin: 0;
   border: 0;
@@ -94,12 +97,19 @@ font {
   border: 0;
   line-height: 1; }
 
-.moneyDue {
+  .carinfo {
+    font-size: 12px;
+    font-weight:600;
+    background-color: #ffffff;
+    padding: 10px 0 10px 0;
+  }
+
+.model {
   background-color: #ffffff;
   padding: 0 0 20px 0px;
   margin: 0px 0 0 0;
   font-weight: 100;
-  font-size: 12px;
+  font-size: 10px;
   align: center;
 
  }
@@ -161,6 +171,10 @@ font {
   display: inline;
   background-color: #ffffff; }
 
+  .red {
+    color: red;
+  }
+
 
 
 .img {
@@ -169,6 +183,9 @@ font {
   -ms-user-select: none; /* IE10+/Edge */
   user-select: none; /* Standard */ }
 
+.icon {
+  max-width: 25px;
+}
 
 
 #title {
@@ -226,7 +243,7 @@ font {
     padding: 12px 0 0 0;
     margin: 0 0 0 7px;
     border: 0; }
-  .moneyDue {
+  .model {
     padding: 3px 0 20px 15px;
     margin: -5px 0 0 0; }
   .disclaimer {
