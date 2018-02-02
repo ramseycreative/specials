@@ -187,8 +187,10 @@ padding-top: 30px; }
 
 @media (max-width: 600px) {
   .specialContainer {
-    width: 240px;
-    flex-direction: column; }
+    max-width: 240px;
+    width: auto;
+    flex-direction: column;
+    margin: 15px auto;}
   .specialContent {
     width: 100%; }
   .modelTrim {
