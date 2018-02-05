@@ -185,7 +185,7 @@ font {
 
 
 
-@media (max-width: 590px) {
+@media (max-width: 580px) {
   .specialContainer {
     max-width: 240px;
     width: auto;
