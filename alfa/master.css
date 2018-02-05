@@ -5,7 +5,7 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, span {
   background-color: #ffffff; }
 
 .specialContainer {
-  width: 570px;
+  width: 560px;
   background-color: #ffffff;
   color: #000000;
   padding: 20px;
@@ -189,7 +189,7 @@ font {
   .specialContainer {
     max-width: 240px;
     width: auto;
-    flex-direction: column;
+    flex-direction: column;s
     margin: 15px auto;}
   .specialContent {
     width: 100%; }
