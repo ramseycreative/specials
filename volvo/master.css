@@ -5,7 +5,7 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, span {
   background-color: #ffffff; }
 
 .specialContainer {
-  width: 900px;
+  width: 850px;
   background-color: #ffffff;
   color: #000000;
   padding: 20px;
@@ -132,7 +132,7 @@ font {
 .disclaimer {
   background-color: #ffffff;
   font-size: 8px;
-  padding: 1px 0 0 0; }
+  padding: 10px 0 0 0; }
 
 .vehicleImage {
   background-color: #ffffff;
