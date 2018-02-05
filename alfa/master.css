@@ -5,7 +5,7 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, span {
   background-color: #ffffff; }
 
 .specialContainer {
-  width: 600px;
+  width: 590px;
   background-color: #ffffff;
   color: #000000;
   padding: 20px;
@@ -109,7 +109,7 @@ font {
   color: #ffffff;
   background-color: #981E32;
   text-decoration: none;
-  padding: 10px 100px;
+  padding: 10px 40px;
   display: inline-block;
   font-size: 20px;
   text-align: center;
@@ -187,8 +187,10 @@ font {
 
 @media (max-width: 600px) {
   .specialContainer {
-    width: 240px;
-    flex-direction: column; }
+    max-width: 240px;
+    width: auto;
+    flex-direction: column;
+    margin: 15px auto;}
   .specialContent {
     width: 100%; }
   .modelTrim {
