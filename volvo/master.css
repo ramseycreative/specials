@@ -2,7 +2,7 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, span {
   margin: 0;
   padding: 0;
   border: 0;
-  background-color: #E3E3E3; }
+  background-color: #ffffff; }
 
 .specialContainer {
   width: 940px;
@@ -73,7 +73,7 @@ font {
 .lease {
   background-color: #ffffff;
 
-  font-size: 110px;
+  font-size: 70px;
   padding: 0 0 0 0;
   margin: 0;
   border: 0;
@@ -132,7 +132,7 @@ font {
 .disclaimer {
   background-color: #ffffff;
   font-size: 8px;
-  padding: 20px 0 0 0; }
+  padding: 1px 0 0 0; }
 
 .vehicleImage {
   background-color: #ffffff;
@@ -188,8 +188,10 @@ font {
 
 @media (max-width: 600px) {
   .specialContainer {
-    width: 240px;
-    flex-direction: column; }
+    max-width: 240px;
+    width: auto;
+    flex-direction: column;
+    margin: 15px auto; }
   .specialContent {
     width: 100%; }
   .modelTrim {
@@ -224,13 +226,13 @@ font {
   margin-left: 0px;}
   .monthsSections {
     flex: 1;
-    font-size: 20px;
+    font-size: 16px;
     padding: 12px 0 0 0;
-    margin: 0 0 0 7px;
+    margin: 0;
     border: 0; }
   .moneyDue {
-    padding: 3px 0 20px 15px;
-    margin: -5px 0 0 0; }
+    padding: ;
+    margin: 0px 0 0 0;}
   .disclaimer {
     padding: 20px 0 0 0; }
   .linkButton {
