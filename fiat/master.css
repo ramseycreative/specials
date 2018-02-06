@@ -5,7 +5,7 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, span {
   background-color: #E3E3E3; }
 
 .specialContainer {
-  width: 600px;
+  width: 580px;
   background-color: #ffffff;
   color: #000000;
   padding: 20px;
@@ -109,7 +109,7 @@ padding-top: 40px; }
   color: #ffffff;
   background-color: #981E32;
   text-decoration: none;
-  padding: 10px 100px;
+  padding: 10px 50px;
   display: inline-block;
   font-size: 20px;
   text-align: center;
